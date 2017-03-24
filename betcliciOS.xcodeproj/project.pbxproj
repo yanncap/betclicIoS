@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1820D2DC1E850D200081ACBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1820D2DB1E850D200081ACBF /* AppDelegate.swift */; };
+		1820D2DE1E850D200081ACBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1820D2DD1E850D200081ACBF /* ViewController.swift */; };
+		1820D2E11E850D200081ACBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1820D2DF1E850D200081ACBF /* Main.storyboard */; };
+		1820D2E31E850D200081ACBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1820D2E21E850D200081ACBF /* Assets.xcassets */; };
+		1820D2E61E850D200081ACBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1820D2E41E850D200081ACBF /* LaunchScreen.storyboard */; };
+		1820D2F11E850D200081ACBF /* betcliciOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1820D2F01E850D200081ACBF /* betcliciOSTests.swift */; };
+		1820D2FC1E850D200081ACBF /* betcliciOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1820D2FB1E850D200081ACBF /* betcliciOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1820D2ED1E850D200081ACBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1820D2D01E850D200081ACBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1820D2D71E850D200081ACBF;
+			remoteInfo = betcliciOS;
+		};
+		1820D2F81E850D200081ACBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1820D2D01E850D200081ACBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1820D2D71E850D200081ACBF;
+			remoteInfo = betcliciOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1820D2D81E850D200081ACBF /* betcliciOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = betcliciOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1820D2DB1E850D200081ACBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1820D2DD1E850D200081ACBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1820D2E01E850D200081ACBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1820D2E21E850D200081ACBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1820D2E51E850D200081ACBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1820D2E71E850D200081ACBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1820D2EC1E850D200081ACBF /* betcliciOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = betcliciOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1820D2F01E850D200081ACBF /* betcliciOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = betcliciOSTests.swift; sourceTree = "<group>"; };
+		1820D2F21E850D200081ACBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1820D2F71E850D200081ACBF /* betcliciOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = betcliciOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1820D2FB1E850D200081ACBF /* betcliciOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = betcliciOSUITests.swift; sourceTree = "<group>"; };
+		1820D2FD1E850D200081ACBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1820D2D51E850D200081ACBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1820D2E91E850D200081ACBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1820D2F41E850D200081ACBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1820D2CF1E850D200081ACBF = {
+			isa = PBXGroup;
+			children = (
+				1820D2DA1E850D200081ACBF /* betcliciOS */,
+				1820D2EF1E850D200081ACBF /* betcliciOSTests */,
+				1820D2FA1E850D200081ACBF /* betcliciOSUITests */,
+				1820D2D91E850D200081ACBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1820D2D91E850D200081ACBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1820D2D81E850D200081ACBF /* betcliciOS.app */,
+				1820D2EC1E850D200081ACBF /* betcliciOSTests.xctest */,
+				1820D2F71E850D200081ACBF /* betcliciOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1820D2DA1E850D200081ACBF /* betcliciOS */ = {
+			isa = PBXGroup;
+			children = (
+				1820D2DB1E850D200081ACBF /* AppDelegate.swift */,
+				1820D2DD1E850D200081ACBF /* ViewController.swift */,
+				1820D2DF1E850D200081ACBF /* Main.storyboard */,
+				1820D2E21E850D200081ACBF /* Assets.xcassets */,
+				1820D2E41E850D200081ACBF /* LaunchScreen.storyboard */,
+				1820D2E71E850D200081ACBF /* Info.plist */,
+			);
+			path = betcliciOS;
+			sourceTree = "<group>";
+		};
+		1820D2EF1E850D200081ACBF /* betcliciOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				1820D2F01E850D200081ACBF /* betcliciOSTests.swift */,
+				1820D2F21E850D200081ACBF /* Info.plist */,
+			);
+			path = betcliciOSTests;
+			sourceTree = "<group>";
+		};
+		1820D2FA1E850D200081ACBF /* betcliciOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1820D2FB1E850D200081ACBF /* betcliciOSUITests.swift */,
+				1820D2FD1E850D200081ACBF /* Info.plist */,
+			);
+			path = betcliciOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1820D2D71E850D200081ACBF /* betcliciOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1820D3001E850D200081ACBF /* Build configuration list for PBXNativeTarget "betcliciOS" */;
+			buildPhases = (
+				1820D2D41E850D200081ACBF /* Sources */,
+				1820D2D51E850D200081ACBF /* Frameworks */,
+				1820D2D61E850D200081ACBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = betcliciOS;
+			productName = betcliciOS;
+			productReference = 1820D2D81E850D200081ACBF /* betcliciOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1820D2EB1E850D200081ACBF /* betcliciOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1820D3031E850D200081ACBF /* Build configuration list for PBXNativeTarget "betcliciOSTests" */;
+			buildPhases = (
+				1820D2E81E850D200081ACBF /* Sources */,
+				1820D2E91E850D200081ACBF /* Frameworks */,
+				1820D2EA1E850D200081ACBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1820D2EE1E850D200081ACBF /* PBXTargetDependency */,
+			);
+			name = betcliciOSTests;
+			productName = betcliciOSTests;
+			productReference = 1820D2EC1E850D200081ACBF /* betcliciOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1820D2F61E850D200081ACBF /* betcliciOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1820D3061E850D200081ACBF /* Build configuration list for PBXNativeTarget "betcliciOSUITests" */;
+			buildPhases = (
+				1820D2F31E850D200081ACBF /* Sources */,
+				1820D2F41E850D200081ACBF /* Frameworks */,
+				1820D2F51E850D200081ACBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1820D2F91E850D200081ACBF /* PBXTargetDependency */,
+			);
+			name = betcliciOSUITests;
+			productName = betcliciOSUITests;
+			productReference = 1820D2F71E850D200081ACBF /* betcliciOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1820D2D01E850D200081ACBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = M2i;
+				TargetAttributes = {
+					1820D2D71E850D200081ACBF = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					1820D2EB1E850D200081ACBF = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1820D2D71E850D200081ACBF;
+					};
+					1820D2F61E850D200081ACBF = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1820D2D71E850D200081ACBF;
+					};
+				};
+			};
+			buildConfigurationList = 1820D2D31E850D200081ACBF /* Build configuration list for PBXProject "betcliciOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1820D2CF1E850D200081ACBF;
+			productRefGroup = 1820D2D91E850D200081ACBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1820D2D71E850D200081ACBF /* betcliciOS */,
+				1820D2EB1E850D200081ACBF /* betcliciOSTests */,
+				1820D2F61E850D200081ACBF /* betcliciOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1820D2D61E850D200081ACBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1820D2E61E850D200081ACBF /* LaunchScreen.storyboard in Resources */,
+				1820D2E31E850D200081ACBF /* Assets.xcassets in Resources */,
+				1820D2E11E850D200081ACBF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1820D2EA1E850D200081ACBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1820D2F51E850D200081ACBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1820D2D41E850D200081ACBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1820D2DE1E850D200081ACBF /* ViewController.swift in Sources */,
+				1820D2DC1E850D200081ACBF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1820D2E81E850D200081ACBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1820D2F11E850D200081ACBF /* betcliciOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1820D2F31E850D200081ACBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1820D2FC1E850D200081ACBF /* betcliciOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1820D2EE1E850D200081ACBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1820D2D71E850D200081ACBF /* betcliciOS */;
+			targetProxy = 1820D2ED1E850D200081ACBF /* PBXContainerItemProxy */;
+		};
+		1820D2F91E850D200081ACBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1820D2D71E850D200081ACBF /* betcliciOS */;
+			targetProxy = 1820D2F81E850D200081ACBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1820D2DF1E850D200081ACBF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1820D2E01E850D200081ACBF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1820D2E41E850D200081ACBF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1820D2E51E850D200081ACBF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1820D2FE1E850D200081ACBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1820D2FF1E850D200081ACBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1820D3011E850D200081ACBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = betcliciOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.m2i.betcliciOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1820D3021E850D200081ACBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = betcliciOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.m2i.betcliciOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1820D3041E850D200081ACBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = betcliciOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.m2i.betcliciOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/betcliciOS.app/betcliciOS";
+			};
+			name = Debug;
+		};
+		1820D3051E850D200081ACBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = betcliciOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.m2i.betcliciOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/betcliciOS.app/betcliciOS";
+			};
+			name = Release;
+		};
+		1820D3071E850D200081ACBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = betcliciOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.m2i.betcliciOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = betcliciOS;
+			};
+			name = Debug;
+		};
+		1820D3081E850D200081ACBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = betcliciOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.m2i.betcliciOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = betcliciOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1820D2D31E850D200081ACBF /* Build configuration list for PBXProject "betcliciOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1820D2FE1E850D200081ACBF /* Debug */,
+				1820D2FF1E850D200081ACBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1820D3001E850D200081ACBF /* Build configuration list for PBXNativeTarget "betcliciOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1820D3011E850D200081ACBF /* Debug */,
+				1820D3021E850D200081ACBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1820D3031E850D200081ACBF /* Build configuration list for PBXNativeTarget "betcliciOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1820D3041E850D200081ACBF /* Debug */,
+				1820D3051E850D200081ACBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1820D3061E850D200081ACBF /* Build configuration list for PBXNativeTarget "betcliciOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1820D3071E850D200081ACBF /* Debug */,
+				1820D3081E850D200081ACBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1820D2D01E850D200081ACBF /* Project object */;
+}
