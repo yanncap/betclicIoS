@@ -10,9 +10,15 @@ import Foundation
 import UIKit
 
 class LoginController: UIViewController {
+   
+    @IBOutlet weak var emailText: UITextField!
+    @IBOutlet weak var passwordText: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+    @IBAction func SignIn(_ sender: Any) {
+    }
+    
 }
