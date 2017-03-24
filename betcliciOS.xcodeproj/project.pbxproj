@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		1820D2DC1E850D200081ACBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1820D2DB1E850D200081ACBF /* AppDelegate.swift */; };
-		1820D2DE1E850D200081ACBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1820D2DD1E850D200081ACBF /* ViewController.swift */; };
+		1820D2DE1E850D200081ACBF /* InscriptionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1820D2DD1E850D200081ACBF /* InscriptionController.swift */; };
 		1820D2E11E850D200081ACBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1820D2DF1E850D200081ACBF /* Main.storyboard */; };
 		1820D2E31E850D200081ACBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1820D2E21E850D200081ACBF /* Assets.xcassets */; };
 		1820D2E61E850D200081ACBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1820D2E41E850D200081ACBF /* LaunchScreen.storyboard */; };
 		1820D2F11E850D200081ACBF /* betcliciOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1820D2F01E850D200081ACBF /* betcliciOSTests.swift */; };
 		1820D2FC1E850D200081ACBF /* betcliciOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1820D2FB1E850D200081ACBF /* betcliciOSUITests.swift */; };
+		1820D30A1E850F940081ACBF /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 1820D3091E850F940081ACBF /* .gitignore */; };
+		1820D30D1E8513E50081ACBF /* Meeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1820D30C1E8513E50081ACBF /* Meeting.swift */; };
+		1820D30F1E8515930081ACBF /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1820D30E1E8515930081ACBF /* Status.swift */; };
+		1820D3131E85198A0081ACBF /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1820D3121E85198A0081ACBF /* LoginController.swift */; };
+		1820D3151E8519A60081ACBF /* MeetingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1820D3141E8519A60081ACBF /* MeetingsController.swift */; };
+		1820D3171E8519CD0081ACBF /* MeetingDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1820D3161E8519CD0081ACBF /* MeetingDetailController.swift */; };
+		1820D3191E8519F10081ACBF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1820D3181E8519F10081ACBF /* User.swift */; };
+		1820D31B1E851B4C0081ACBF /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1820D31A1E851B4C0081ACBF /* LoginService.swift */; };
+		1820D31D1E851C570081ACBF /* MeetingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1820D31C1E851C570081ACBF /* MeetingService.swift */; };
+		1820D31F1E851C6E0081ACBF /* InscriptionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1820D31E1E851C6E0081ACBF /* InscriptionService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +46,7 @@
 /* Begin PBXFileReference section */
 		1820D2D81E850D200081ACBF /* betcliciOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = betcliciOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1820D2DB1E850D200081ACBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1820D2DD1E850D200081ACBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1820D2DD1E850D200081ACBF /* InscriptionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InscriptionController.swift; sourceTree = "<group>"; };
 		1820D2E01E850D200081ACBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1820D2E21E850D200081ACBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1820D2E51E850D200081ACBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +57,16 @@
 		1820D2F71E850D200081ACBF /* betcliciOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = betcliciOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1820D2FB1E850D200081ACBF /* betcliciOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = betcliciOSUITests.swift; sourceTree = "<group>"; };
 		1820D2FD1E850D200081ACBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1820D3091E850F940081ACBF /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		1820D30C1E8513E50081ACBF /* Meeting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meeting.swift; sourceTree = "<group>"; };
+		1820D30E1E8515930081ACBF /* Status.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		1820D3121E85198A0081ACBF /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		1820D3141E8519A60081ACBF /* MeetingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingsController.swift; sourceTree = "<group>"; };
+		1820D3161E8519CD0081ACBF /* MeetingDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingDetailController.swift; sourceTree = "<group>"; };
+		1820D3181E8519F10081ACBF /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1820D31A1E851B4C0081ACBF /* LoginService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		1820D31C1E851C570081ACBF /* MeetingService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingService.swift; sourceTree = "<group>"; };
+		1820D31E1E851C6E0081ACBF /* InscriptionService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InscriptionService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +97,7 @@
 		1820D2CF1E850D200081ACBF = {
 			isa = PBXGroup;
 			children = (
+				1820D3091E850F940081ACBF /* .gitignore */,
 				1820D2DA1E850D200081ACBF /* betcliciOS */,
 				1820D2EF1E850D200081ACBF /* betcliciOSTests */,
 				1820D2FA1E850D200081ACBF /* betcliciOSUITests */,
@@ -97,8 +118,10 @@
 		1820D2DA1E850D200081ACBF /* betcliciOS */ = {
 			isa = PBXGroup;
 			children = (
+				1820D3111E85194B0081ACBF /* services */,
+				1820D3101E85193E0081ACBF /* controllers */,
+				1820D30B1E8513B50081ACBF /* models */,
 				1820D2DB1E850D200081ACBF /* AppDelegate.swift */,
-				1820D2DD1E850D200081ACBF /* ViewController.swift */,
 				1820D2DF1E850D200081ACBF /* Main.storyboard */,
 				1820D2E21E850D200081ACBF /* Assets.xcassets */,
 				1820D2E41E850D200081ACBF /* LaunchScreen.storyboard */,
@@ -123,6 +146,37 @@
 				1820D2FD1E850D200081ACBF /* Info.plist */,
 			);
 			path = betcliciOSUITests;
+			sourceTree = "<group>";
+		};
+		1820D30B1E8513B50081ACBF /* models */ = {
+			isa = PBXGroup;
+			children = (
+				1820D30C1E8513E50081ACBF /* Meeting.swift */,
+				1820D30E1E8515930081ACBF /* Status.swift */,
+				1820D3181E8519F10081ACBF /* User.swift */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		1820D3101E85193E0081ACBF /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1820D2DD1E850D200081ACBF /* InscriptionController.swift */,
+				1820D3121E85198A0081ACBF /* LoginController.swift */,
+				1820D3141E8519A60081ACBF /* MeetingsController.swift */,
+				1820D3161E8519CD0081ACBF /* MeetingDetailController.swift */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		1820D3111E85194B0081ACBF /* services */ = {
+			isa = PBXGroup;
+			children = (
+				1820D31A1E851B4C0081ACBF /* LoginService.swift */,
+				1820D31C1E851C570081ACBF /* MeetingService.swift */,
+				1820D31E1E851C6E0081ACBF /* InscriptionService.swift */,
+			);
+			name = services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +286,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1820D30A1E850F940081ACBF /* .gitignore in Resources */,
 				1820D2E61E850D200081ACBF /* LaunchScreen.storyboard in Resources */,
 				1820D2E31E850D200081ACBF /* Assets.xcassets in Resources */,
 				1820D2E11E850D200081ACBF /* Main.storyboard in Resources */,
@@ -259,8 +314,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1820D2DE1E850D200081ACBF /* ViewController.swift in Sources */,
+				1820D2DE1E850D200081ACBF /* InscriptionController.swift in Sources */,
+				1820D30D1E8513E50081ACBF /* Meeting.swift in Sources */,
+				1820D3171E8519CD0081ACBF /* MeetingDetailController.swift in Sources */,
 				1820D2DC1E850D200081ACBF /* AppDelegate.swift in Sources */,
+				1820D31B1E851B4C0081ACBF /* LoginService.swift in Sources */,
+				1820D3191E8519F10081ACBF /* User.swift in Sources */,
+				1820D31F1E851C6E0081ACBF /* InscriptionService.swift in Sources */,
+				1820D30F1E8515930081ACBF /* Status.swift in Sources */,
+				1820D3131E85198A0081ACBF /* LoginController.swift in Sources */,
+				1820D3151E8519A60081ACBF /* MeetingsController.swift in Sources */,
+				1820D31D1E851C570081ACBF /* MeetingService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
