@@ -45,6 +45,7 @@
                                         </state>
                                         <connections>
                                             <action selector="SignIn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yhD-OI-lkX"/>
+                                            <segue destination="nx7-vx-pzB" kind="presentation" id="GZ7-D4-79o"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SNr-W3-E8B">
@@ -85,7 +86,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1284" y="-74.212893553223395"/>
+            <point key="canvasLocation" x="1193" y="-188"/>
         </scene>
         <!--Inscription-->
         <scene sceneID="1Pi-GV-WQ5">
@@ -109,25 +110,25 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Prénom" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mEi-Uf-hia">
-                                        <rect key="frame" x="0.0" y="28" width="323" height="18"/>
+                                        <rect key="frame" x="0.0" y="28" width="323" height="18.5"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Date de naissance(jj/mm/yyyy)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EaM-lq-57x">
-                                        <rect key="frame" x="0.0" y="56" width="323" height="19"/>
+                                        <rect key="frame" x="0.0" y="56.5" width="323" height="18"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Adresse" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hiH-iX-bkD">
-                                        <rect key="frame" x="0.0" y="85" width="323" height="18"/>
+                                        <rect key="frame" x="0.0" y="84.5" width="323" height="18"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ville" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Rdr-cN-eV4">
-                                        <rect key="frame" x="0.0" y="113" width="323" height="18"/>
+                                        <rect key="frame" x="0.0" y="112.5" width="323" height="18.5"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -139,25 +140,25 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Rnd-RC-z0M">
-                                        <rect key="frame" x="0.0" y="169" width="323" height="18"/>
+                                        <rect key="frame" x="0.0" y="169" width="323" height="18.5"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Confirmation Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="b5e-pd-oma">
-                                        <rect key="frame" x="0.0" y="197" width="323" height="18"/>
+                                        <rect key="frame" x="0.0" y="197.5" width="323" height="18"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Mot de pass" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CQO-sU-J4l">
-                                        <rect key="frame" x="0.0" y="225" width="323" height="19"/>
+                                        <rect key="frame" x="0.0" y="225.5" width="323" height="18"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Confirmation Mot de passe" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TXB-kQ-IdG">
-                                        <rect key="frame" x="0.0" y="254" width="323" height="18"/>
+                                        <rect key="frame" x="0.0" y="253.5" width="323" height="18.5"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
@@ -183,7 +184,13 @@
                             <constraint firstItem="3Bo-Te-DLe" firstAttribute="top" secondItem="5bA-2c-Hej" secondAttribute="bottom" constant="50" id="uJm-Ss-dMV"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Inscription" id="ryx-CD-n9S"/>
+                    <navigationItem key="navigationItem" title="Inscription" id="ryx-CD-n9S">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="UtV-Fj-whL">
+                            <connections>
+                                <segue destination="FVK-dm-dav" kind="unwind" unwindAction="unwindToConnexionPageWithSegue:" id="85a-Gy-bsy"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="addressText" destination="hiH-iX-bkD" id="UhS-xp-xTJ"/>
                         <outlet property="birthdateText" destination="EaM-lq-57x" id="Sa4-9Q-CWm"/>
@@ -198,6 +205,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HUe-KT-471" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="FVK-dm-dav" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="3023.1999999999998" y="-236.13193403298354"/>
         </scene>
@@ -250,9 +258,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Liste des rencontres" id="amm-Ye-lzz"/>
+                    <navigationItem key="navigationItem" title="Liste des rencontres" id="amm-Ye-lzz">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="qiy-VZ-BO9">
+                            <connections>
+                                <segue destination="yI4-3Y-wJW" kind="unwind" unwindAction="unwindToConnexionPageWithSegue:" id="VPh-TA-2wz"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mj3-MT-oOJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="yI4-3Y-wJW" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="3241" y="534"/>
         </scene>
@@ -272,7 +287,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oUl-Q2-x4u" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2006" y="534"/>
+            <point key="canvasLocation" x="1921" y="693"/>
         </scene>
     </scenes>
 </document>

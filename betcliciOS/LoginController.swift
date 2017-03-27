@@ -26,9 +26,15 @@ class LoginController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
    
+    @IBAction func unwindToConnexionPage(segue: UIStoryboardSegue) {
+    
+    BetclicDataProvider.removeTokenLocally()
+    print("Token sauvgarder en local : "+BetclicDataProvider.getToken())
+    
+    }
+    
     @IBAction func SignIn(_ sender: Any) {
         
-    
         // on récupère les valeurs des champs
         let email = self.emailText.text!
         let password = self.passwordText.text!
@@ -75,6 +81,7 @@ class LoginController: UIViewController {
             
             BetclicDataProvider.saveTokenLocally((user?.token)!)
             
+            print("Token sauvgarder en local : "+BetclicDataProvider.getToken())
             
             //   alert.addAction(UIAlertAction(title: "OK", style: .cancel, handler: nil))
             //   self.present(alert, animated: true, completion: nil)

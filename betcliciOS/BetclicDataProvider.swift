@@ -27,5 +27,18 @@ class BetclicDataProvider {
         UserDefaults.standard.removeObject(forKey: tokenKey)
     }
     
+    // get token from local storage
+    static func getToken() -> String {
+    var token = ""
+    // on récupère les données associées à la clé "token"
+    if let tokenData = UserDefaults.standard.object(forKey: tokenKey) {
+        // on désérialise les données
+        if let data = NSKeyedUnarchiver.unarchiveObject(with: tokenData as! Data) {
+            token = data as! String
+        }
+    }
+    return token
+        
+    }
     
 }
