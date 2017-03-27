@@ -71,7 +71,11 @@ class LoginController: UIViewController {
                 message: "Sucess",
                 preferredStyle: UIAlertControllerStyle.actionSheet
             )
-            print("successsssssssssss : " + alert.message!)
+            print("LoginController.login (success) : " + alert.message!)
+            
+            BetclicDataProvider.saveTokenLocally((user?.token)!)
+            
+            
             //   alert.addAction(UIAlertAction(title: "OK", style: .cancel, handler: nil))
             //   self.present(alert, animated: true, completion: nil)
             
@@ -82,7 +86,7 @@ class LoginController: UIViewController {
                 preferredStyle: UIAlertControllerStyle.actionSheet
             )
             
-            print("errrrrrrrrrrrrorr : " + alert.message!)
+            print("LoginController.login (Error) :" + alert.message!)
             
             // alert.addAction(UIAlertAction(title: "OK", style: .cancel, handler: nil))
             // self.present(alert, animated: true, completion: nil)

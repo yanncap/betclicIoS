@@ -60,10 +60,6 @@ class LoginService {
         
         }).resume()
     
-        
-        
-        
-        
     }
 
 
