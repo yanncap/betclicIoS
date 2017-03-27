@@ -24,6 +24,8 @@
 		1820D31B1E851B4C0081ACBF /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1820D31A1E851B4C0081ACBF /* LoginService.swift */; };
 		1820D31D1E851C570081ACBF /* MeetingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1820D31C1E851C570081ACBF /* MeetingService.swift */; };
 		1820D31F1E851C6E0081ACBF /* InscriptionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1820D31E1E851C6E0081ACBF /* InscriptionService.swift */; };
+		183614401E854B5800F19BEF /* BetclicDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836143F1E854B5800F19BEF /* BetclicDataProvider.swift */; };
+		183614431E854D9C00F19BEF /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183614421E854D9C00F19BEF /* Router.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,8 @@
 		1820D31A1E851B4C0081ACBF /* LoginService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
 		1820D31C1E851C570081ACBF /* MeetingService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingService.swift; sourceTree = "<group>"; };
 		1820D31E1E851C6E0081ACBF /* InscriptionService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InscriptionService.swift; sourceTree = "<group>"; };
+		1836143F1E854B5800F19BEF /* BetclicDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BetclicDataProvider.swift; sourceTree = "<group>"; };
+		183614421E854D9C00F19BEF /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,8 @@
 		1820D2DA1E850D200081ACBF /* betcliciOS */ = {
 			isa = PBXGroup;
 			children = (
+				183614411E854D8100F19BEF /* config */,
+				1836143E1E854B1700F19BEF /* DataProvider */,
 				1820D3111E85194B0081ACBF /* services */,
 				1820D3101E85193E0081ACBF /* controllers */,
 				1820D30B1E8513B50081ACBF /* models */,
@@ -177,6 +183,22 @@
 				1820D31E1E851C6E0081ACBF /* InscriptionService.swift */,
 			);
 			name = services;
+			sourceTree = "<group>";
+		};
+		1836143E1E854B1700F19BEF /* DataProvider */ = {
+			isa = PBXGroup;
+			children = (
+				1836143F1E854B5800F19BEF /* BetclicDataProvider.swift */,
+			);
+			name = DataProvider;
+			sourceTree = "<group>";
+		};
+		183614411E854D8100F19BEF /* config */ = {
+			isa = PBXGroup;
+			children = (
+				183614421E854D9C00F19BEF /* Router.swift */,
+			);
+			name = config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,6 +339,7 @@
 				1820D2DE1E850D200081ACBF /* InscriptionController.swift in Sources */,
 				1820D30D1E8513E50081ACBF /* Meeting.swift in Sources */,
 				1820D3171E8519CD0081ACBF /* MeetingDetailController.swift in Sources */,
+				183614401E854B5800F19BEF /* BetclicDataProvider.swift in Sources */,
 				1820D2DC1E850D200081ACBF /* AppDelegate.swift in Sources */,
 				1820D31B1E851B4C0081ACBF /* LoginService.swift in Sources */,
 				1820D3191E8519F10081ACBF /* User.swift in Sources */,
@@ -325,6 +348,7 @@
 				1820D3131E85198A0081ACBF /* LoginController.swift in Sources */,
 				1820D3151E8519A60081ACBF /* MeetingsController.swift in Sources */,
 				1820D31D1E851C570081ACBF /* MeetingService.swift in Sources */,
+				183614431E854D9C00F19BEF /* Router.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -569,6 +593,7 @@
 				1820D3021E850D200081ACBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1820D3031E850D200081ACBF /* Build configuration list for PBXNativeTarget "betcliciOSTests" */ = {
 			isa = XCConfigurationList;
@@ -577,6 +602,7 @@
 				1820D3051E850D200081ACBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1820D3061E850D200081ACBF /* Build configuration list for PBXNativeTarget "betcliciOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -585,6 +611,7 @@
 				1820D3081E850D200081ACBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
