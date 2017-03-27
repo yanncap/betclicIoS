@@ -18,6 +18,9 @@ class User{
     var solde:Double = 0
     var token:String = ""
     
+    init() {
+    }
+    
     init(firstname : String, lastname : String, birthdate : String, email : String, password : String) {
         self.firstname = firstname
         self.lastname = lastname

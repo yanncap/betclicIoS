@@ -26,6 +26,16 @@ class Router {
             ]
         return urlComponents
     }
+    
+    
+    static func addUser() -> URLComponents {
+        var urlComponents = URLComponents()
+        urlComponents.scheme = self.apiScheme
+        urlComponents.port = 9000
+        urlComponents.host = self.apiHost
+        urlComponents.path = "/api/inscription"
+        return urlComponents
+    }
 
 
 }
