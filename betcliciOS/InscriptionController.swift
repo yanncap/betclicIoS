@@ -10,6 +10,8 @@ import UIKit
 
 class InscriptionController: UIViewController {
 
+    
+    
     @IBOutlet weak var lastnameText: UITextField!
     @IBOutlet weak var firstnameText: UITextField!
     @IBOutlet weak var birthdateText: UITextField!
